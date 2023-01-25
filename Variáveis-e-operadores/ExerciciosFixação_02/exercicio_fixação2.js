@@ -13,7 +13,7 @@ IMC em adultos Condição.
 */
 
 const peso = 74;
-const altura = 1.76;
+const altura = 1.75;
 const imc = peso / Math.pow(altura, 2);
 console.log(imc);
 
@@ -28,4 +28,3 @@ if (imc < 18.5) {
 } else {
     console.log('Obesidade Grave')
 }
-   
